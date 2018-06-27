@@ -1,6 +1,6 @@
 ﻿using System;
 using Gtk;
-
+using Majordomolib;
 public partial class MainWindow : Gtk.Window
 {
     public MainWindow() : base(Gtk.WindowType.Toplevel)
@@ -16,7 +16,6 @@ public partial class MainWindow : Gtk.Window
 
 	protected void OnBtnConnectClicked(object sender, EventArgs e)
 	{
-
         
 	}
 }
